@@ -1,0 +1,54 @@
+name: hizir_acil
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # ✅ Firebase paketleri (en güncel stabil sürümler)
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+
+  # ✅ Web desteği için (bunlar otomatik gelir ama garanti için eklenebilir)
+  firebase_core_web: any
+  firebase_auth_web: any
+
+  # Dropdown paketi
+  dropdown_button2: ^2.3.9
+    # ✅ Cihaz bilgisi için
+  device_info_plus: ^10.1.0
+
+  # ✅ Uygulama versiyon bilgisi için
+  package_info_plus: ^8.0.0
+
+  # ✅ Konum servisleri için
+  geolocator: ^13.0.1
+  google_maps_flutter: ^2.12.3
+  flutter_polyline_points: ^1.0.0
+  google_maps_flutter_web: ^0.5.13
+  flutter_dotenv: ^6.0.0
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  google_maps_flutter_web: ^0.5.4
+  flutter_lints: ^5.0.0
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/.env
+

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "622213683567",
+    "project_id": "hiziracil-c8795",
+    "storage_bucket": "hiziracil-c8795.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622213683567:android:eab1198a50413f4ba9309a",
+        "android_client_info": {
+          "package_name": "com.example.hizir_acil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzf1rn1iRtw3HzXBPk51W4uCJ9wzrlchg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
