@@ -33,7 +33,7 @@ The app allows **users to report emergencies** instantly, while **drivers** (suc
 | **Firebase** | Backend for authentication, Firestore database, and storage |
 | **Google Maps API** | Real-time location and mapping |
 | **Flutter Dotenv** | Environment configuration and variable management |
-| **Provider / Riverpod** | (Optional) State management for reactive updates |
+| **Provider / Riverpod** | State management for reactive updates |
 
 ---
 
@@ -82,7 +82,7 @@ flutter run -d android    # for Android
 flutter run -d ios        # for iOS
 ```
 
-5. 📈 Development Status
+## 📈 Development Status
 The app is currently under active development.
 
 ✅ User authentication & emergency alert system implemented
