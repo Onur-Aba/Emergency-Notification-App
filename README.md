@@ -66,9 +66,14 @@ FIREBASE_STORAGE_BUCKET=your_storage_bucket
 FIREBASE_AUTH_DOMAIN=your_auth_domain
 FIREBASE_MEASUREMENT_ID=your_measurement_id
 ```
-⚠️ Make sure .env is listed in your .gitignore file to avoid exposing private credentials.
+4. After these, you need to replace the end of the variable 
+```bash
+"https://maps.googleapis.com/maps/api/js?key=%GOOGLE_API_KEY_WEB%" 
+```
+in the 41st line of the index.html file with your own API key.
 
-4. Run the App
+
+5. Run the App
 ```bash
 
 flutter run
